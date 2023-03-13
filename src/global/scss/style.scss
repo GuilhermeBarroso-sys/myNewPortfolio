@@ -1,0 +1,97 @@
+* {
+  margin:0;
+  padding:0;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+}
+
+p,span {
+  font-size: 1rem;
+  font-weight: 400;
+  color: white;
+  @media screen and (max-width: 1024px) {
+    font-size: 0.9rem;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 0.8rem;
+  }
+  @media screen and (max-width: 425px) {
+    font-size: 0.7rem;
+  }
+}
+
+.bg-dark {
+  background-color: #171717e5;
+}
+
+.bg-green {
+  background-color: #1E5128;
+}
+
+h1 {
+  font-size: 2.7rem;
+  font-weight: 500;
+  @media screen and (max-width: 1536px) {
+    font-size: 2rem;
+   
+  }
+  @media screen and (max-width: 1280px) {
+    font-size: 1.3rem;
+   
+  }
+
+}
+
+h2 {
+  font-size: 2.4rem;
+  font-weight: 500;
+  @media screen and (max-width: 1536px) {
+    font-size: 2rem;
+   
+  }
+  @media screen and (max-width: 1280px) {
+    font-size: 1.5rem;
+   
+  }
+  @media screen and (max-width: 1024px) {
+    font-size: 1.3rem;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 1rem;
+  }
+  @media screen and (max-width: 425px) {
+    font-size: 0.9rem;
+  }
+}
+h3 {
+  font-size: 1.4rem;
+  margin-top:1rem;
+  color:#f9fafb;
+  margin-bottom:1rem;
+  font-weight:400;
+  @media screen and (max-width: 1536px) {
+    font-size: 1.3rem;
+   
+  }
+  @media screen and (max-width: 1280px) {
+    font-size: 1.2rem;
+   
+  }
+  @media screen and (max-width: 1024px) {
+    font-size: 1.1rem;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 1rem;
+  }
+  @media screen and (max-width: 425px) {
+    font-size: 0.9rem;
+  }
+}
+
+

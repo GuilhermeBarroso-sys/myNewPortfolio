@@ -1,0 +1,62 @@
+
+
+.container {
+  width: 100%;
+  background-color: #262626;
+  display:flex;
+  justify-content: center;
+  padding-bottom: 2rem;
+  .skills {
+    margin-top: 0.5rem;
+    width: 85%;
+    text-align: center;
+    h1 {
+      margin: 0.5rem 0 2.5rem 0;
+      text-align: center;
+    }
+    @media screen and (max-width: 1024px) {
+      width:100%;
+    }
+    .boxContainer {
+      display:flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      @media screen and (max-width: 1024px) {
+        flex-direction: column;
+        align-items: center;
+      }
+      .skillBox {
+        width: 17rem;
+        height: 14rem;
+        background-color: #3f3f46;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px 2px #000000;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 20px;
+        img {
+          width: 2rem;
+          height: 2rem;
+        }
+        @media screen and (max-width: 1536px) {
+          width: 14rem;
+          height: 11rem;
+      
+        }
+        @media screen and (max-width: 1280px) {
+          width: 11rem;
+          height: 8rem;
+        }
+       
+        @media screen and (max-width: 1024px) {
+          margin: 1.5rem 0;
+        
+        }
+      }
+    }
+  }
+
+}
+
