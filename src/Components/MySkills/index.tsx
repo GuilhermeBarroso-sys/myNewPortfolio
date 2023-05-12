@@ -14,7 +14,7 @@ export function MySkills({skills, title} : IMySkillsProps) {
 	return (
 		<section className={`${styles.container}`}>
 			<div className={styles.skills}>
-				<h1>{title}</h1>
+				<h1>{title} 👨🏻‍💻</h1>
         
 				<div className={styles.boxContainer}>
 					{skills.map(({imgSrc,title,titleColor}, index) => {

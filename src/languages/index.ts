@@ -2,6 +2,7 @@ import finances from "../assets/finances.svg";
 import blogIcon from "../assets/ninja.png";
 import movies from "../assets/movies.png";
 import todo from "../assets/todo.png";
+import leadGeneration from "../assets/lead-generation.png";
 import { Project } from "../Components/Projects";
 import resumeEnUs from "../assets/resume_enUS.pdf";
 import resumePtBr from "../assets/resume_ptBR.pdf";
@@ -48,6 +49,14 @@ export const languages : ILanguage = {
 			title: "Meus principais projetos",
 			previewTitle: "Visualizar",
 			projects : [
+				{
+					name: "Leads Project",
+					description: "Projeto de captação de Lead que envia mensagem no Telegram.",
+					githubUrl: "https://github.com/GuilhermeBarroso-sys/LeadsProject",
+					logo: leadGeneration,
+					year: "2023",
+					previewUrl: null
+				},
 				{
 					name: "BEFinances",
 					description: "Projeto financeiro que ajuda você controlar seus gastos.",
@@ -99,6 +108,14 @@ export const languages : ILanguage = {
 			title: "My Favorite projects",
 			previewTitle: "Preview",
 			projects : [
+				{
+					name: "Leads Project",
+					description: "Catch leads and send messages to a Telegram chat group.",
+					githubUrl: "https://github.com/GuilhermeBarroso-sys/LeadsProject",
+					logo: leadGeneration,
+					year: "2023",
+					previewUrl: null
+				},
 				{
 					name: "BEFinances",
 					description: "A financial project that helps control your expenses!",

@@ -8,17 +8,21 @@ import { IProjectPage, languages } from "./languages";
 export function App() {
 	const availableLanguages = [
 		"ptBR",
+
 		"enUS"
 	];
 	function handleLanguage()  {
 		const savedLanguage = localStorage.getItem("@devguiPortfolio:language");
 		if(language) {
+
+
+
 			const isValidLanguage = availableLanguages.includes(savedLanguage);
 			setLanguage(isValidLanguage ? savedLanguage : "ptBR");
 		} else {
 			setLanguage("ptBR");
 		}
-	}
+	}    
 	function handleLanguageQueryParams(queryParams : string) {
 		const isValidQueryParams = queryParams.includes("language");
 		if(isValidQueryParams) {
